@@ -1,0 +1,22 @@
+{
+  "name": "reactmern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "npm run dev ",
+    "client": "cd myreactapp && npm start ",
+    "dev": "nodemon server.js",
+    "start": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aakritimehraa/mern-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aakritimehraa/mern-app/issues"
+  },
+  "homepage": "https://github.com/aakritimehraa/mern-app#readme"
+}
